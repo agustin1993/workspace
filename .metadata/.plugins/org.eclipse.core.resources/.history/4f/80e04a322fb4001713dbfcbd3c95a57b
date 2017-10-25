@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Ejercicio9 {
+
+	public static void main(String[] args) {
+		int num;
+		
+		Scanner teclado = new Scanner(System.in);
+		System.out.println("Inserte un número:");
+		num = teclado.nextln();
+		
+		if(num < 0){
+			System.out.println("El número " +num+ " es positivo.");
+		}else{
+			System.out.println("El número " +num+ " es negativo.");
+		}
+	}
+
+}

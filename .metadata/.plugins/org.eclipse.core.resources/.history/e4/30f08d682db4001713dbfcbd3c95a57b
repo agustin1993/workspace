@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Ejercicio8 {
+
+	public static void main(String[] args) {
+		String respuesta = "";
+		
+		Scanner teclado = new Scanner(System.in);
+		System.out.println("Inserte S o N:");
+		respuesta = teclado.next();
+		
+		while(respuesta.equals("S" != "N")){
+			System.out.println("Has introducido " +respuesta);
+		}
+
+	}
+
+}
